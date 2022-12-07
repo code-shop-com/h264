@@ -3,7 +3,7 @@
 ## News
 
 The development of our adaptive streaming software is available at the
-[(http://www.unified-streaming.com) Unified Streaming Platform] website. The
+[Unified Streaming Platform](http://www.unified-streaming.com) website. The
 software that is available on this website (mod_h264_streaming version 2.2.7)
 supports pseudo streaming for Flash. 
 
