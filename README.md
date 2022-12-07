@@ -9,11 +9,9 @@ supports pseudo streaming for Flash.
 
 ## News (March 2010)
 
-Another sneak preview. We offer you a first look at
-[http://smoothhd.code-shop.com Smooth Streaming for Adobe Flash 10.1]. Encode
-your content once and playback on Silverlight, iPhone and Flash 10.1. More
-information is available on our [http://smoothstreaming.code-shop.com Smooth
-Streaming page].
+Another sneak preview. We offer you a first look at Smooth Streaming for Adobe
+Flash 10.1. Encode your content once and playback on Silverlight, iPhone and
+Flash 10.1. 
 
 ## News (January 2009)
 
@@ -24,9 +22,8 @@ Lighttpd.
 
 ## HTTP Pseudo Streaming
 
-Adobe recently
-[http://www.adobe.com/aboutadobe/pressroom/pressreleases/200712/120407adobemoviestar.html
-announced] support for H264 video files in their Flash player. They have done a
+Adobe recently [announced](http://www.adobe.com/aboutadobe/pressroom/pressreleases/200712/120407adobemoviestar.html)
+support for H264 video files in their Flash player. They have done a
 great job and the good news is that we can have better quality video at lower
 bitrates. At the same time it allows us to use free software to handle the
 encoding.
@@ -49,7 +46,7 @@ playback a part of the video or create download links to specific parts of the
 video.
 
 Virtual video clips also enables possibilities for
-[http://demo.unified-streaming.com Adaptive Streaming].
+[Adaptive Streaming](http://demo.unified-streaming.com Adaptive Streaming).
 
 An easy way for making previews available, say for example when you want to
 differentiate between registered and unregistered users. Here's a little
@@ -61,7 +58,7 @@ rewriting and virtual video clips'].
 The next version will feature 'bandwidth shaping' allowing you to stream videos
 and only use the bandwidth required to view the video over the network.
 
-#### Encoding
+### Encoding
 
 If you are already using the widely adopted MPEG4/H264 industry standard, there
 is no need to re-encode your MP4 videos, you can use your existing video files.
@@ -76,41 +73,40 @@ Grab it from [http://labs.adobe.com/technologies/flashplayer10/].
 
 Pick your webserver and continue to the download and build instructions.
 
-  * [Mod-H264-Streaming-Apache-Version2 Apache](Apache.rst)
-  * [wiki:Mod-H264-Streaming-Lighttpd-Version2 Lighttpd]
-  * [wiki:Mod-H264-Streaming-Nginx-Version2 Nginx]
-  * [wiki:Mod-H264-Streaming-Internet-Information-Services-IIS-Version2 IIS 5 and 6] 
-  * [wiki:Mod-H264-Streaming-Internet-Information-Services-IIS7-Version2 IIS 7] 
-  * [wiki:Mod-H264-Streaming-AolServer-Version2 AOLserver]
+  * [Mod-H264-Streaming-Apache-Version2 Apache](Apache.md)
+  * [Mod-H264-Streaming-Lighttpd-Version2 Lighttpd](Lighttpd.md)
+  * [Mod-H264-Streaming-Nginx-Version2 Nginx](Nginx.md)
+  * [Mod-H264-Streaming-Internet-Information-Services-IIS-Version2 IIS 5 and 6](IIS-5-6.md)
+  * [Mod-H264-Streaming-Internet-Information-Services-IIS7-Version2 IIS 7](IIS-7.md)
+  * [Mod-H264-Streaming-AolServer-Version2 AOLserver](Aolserver.md)
 
-Have a look at the [wiki:ReleaseNotes-Version2 latest release notes] to see what
+Have a look at the [latest release notes](Release.notes) to see what
 has changed or have a look at the [wiki:Mod-H264-Streaming-Performance-Version2
 performance figures] to give you an idea about cpu / memory usage.
 
 ## License
 
 This version is free if you agree to the
-[http://creativecommons.org/licenses/by-nc-sa/3.0/ noncommercial license].
+[noncommercial license](http://creativecommons.org/licenses/by-nc-sa/3.0).
 Please mention its use on your website, in the lines of 'This website uses H264
 pseudo video streaming technology by [http://h264.code-shop.com CodeShop]'.
 
 Our commercial license is very inexpensive, see the following page to check if
-you need a [wiki:Mod-H264-Streaming-License-Version2 commercial license].
+you need a [license](License.md).
 
 ## Flash players supporting H264 Streaming
 
-  * [http://www.fastcatsoftware.com/Player/H264Streaming/demo.asp FCPlayer] by
-  * Fastcat Software.  [http://www.longtailvideo.com/players/jw-flv-player/ JW
-  * FLV Media Player].  [http://www.flowplayer.org/ Flowplayer]. The
-  * H264Streaming Flowplayer plugin is available [FlowPlayer here].
+  * [FCPlayer](http://www.fastcatsoftware.com/Player/H264Streaming/demo.asp) by Fastcat Software.  
+  * [JW FLV Media Player]([http://www.longtailvideo.com/players/jw-flv-player)
+  * [Flowplayer](http://www.flowplayer.org/)
 
 ## Encoding videos in H264
 
-See the article [wiki:Encoding Encoding video in H264].
+See the article [Encoding Encoding video in H264](Encoding.md).
 
 ## Who is using the plugin?
 
-See this [forum:7 forum] for references.
+See this [forum] for references.
 
 ## Feedback
 
