@@ -76,12 +76,12 @@ Grab it from [http://labs.adobe.com/technologies/flashplayer10/].
 
 Pick your webserver and continue to the download and build instructions.
 
-  * [wiki:Mod-H264-Streaming-Apache-Version2 Apache]
+  * [Mod-H264-Streaming-Apache-Version2 Apache](Apache.rst)
   * [wiki:Mod-H264-Streaming-Lighttpd-Version2 Lighttpd]
   * [wiki:Mod-H264-Streaming-Nginx-Version2 Nginx]
-  * [wiki:Mod-H264-Streaming-Internet-Information-Services-IIS-Version2 IIS 5
-  * and 6] [wiki:Mod-H264-Streaming-Internet-Information-Services-IIS7-Version2
-  * IIS 7] [wiki:Mod-H264-Streaming-AolServer-Version2 AOLserver]
+  * [wiki:Mod-H264-Streaming-Internet-Information-Services-IIS-Version2 IIS 5 and 6] 
+  * [wiki:Mod-H264-Streaming-Internet-Information-Services-IIS7-Version2 IIS 7] 
+  * [wiki:Mod-H264-Streaming-AolServer-Version2 AOLserver]
 
 Have a look at the [wiki:ReleaseNotes-Version2 latest release notes] to see what
 has changed or have a look at the [wiki:Mod-H264-Streaming-Performance-Version2
