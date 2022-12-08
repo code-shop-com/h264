@@ -1,6 +1,6 @@
 # H264 Streaming Module Introduction (version 2)
 
-<img src="site.png" alt="Old site" width="400" />
+<img src="site.png" alt="Old site" width="800" />
 
 ## News
 
