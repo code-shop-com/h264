@@ -1,5 +1,7 @@
 # H264 Streaming Module Introduction (version 2)
 
+<img src="site.png" alt="Old site" width="200" />
+
 ## News
 
 The development of our adaptive streaming software is available at the
