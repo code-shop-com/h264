@@ -1,17 +1,12 @@
-= Downloading and configuring the H264 Streaming Module for Internet Information
-Services IIS =
+# Downloading and configuring the H264 Streaming Module for Internet Information Services IIS =
 
-[http://h264.code-shop.com/trac/wiki/ back][[PageOutline]]
-
-----
-
-== Download ==
+## Download
 
 Download the
 [http://h264.code-shop.com/download/iis5_mod_h264_streaming-2.2.7.zip
 H264-Streaming-Module ISAPI extension for IIS].
 
-== Configuration IIS 5.1 (Windows XP) ==
+## Configuration IIS 5.1 (Windows XP)
 
 In the root of the website (c:\inetpub\wwwroot).
 
@@ -29,7 +24,7 @@ in .mp4
   - Set Verbs to "Limit to:" with the value GET,HEAD,POST,DEBUG.
   - Click OK
 
-== Configuration IIS 6 (Windows Server 2003) ==
+## Configuration IIS 6 (Windows Server 2003)
 
 When running Windows 32 bit:
 
@@ -64,8 +59,8 @@ in .mp4
   - Click 'Add' and select the mod_h264_streaming.dll executable.
   - Tick the 'Set extension status to Allowed'.
 
-== Testing ==
+## Testing
 
-Continue to the [wiki:Mod-H264-Streaming-Testing-Version2 testing] page to
+Continue to the [testing](/wiki:Mod-H264-Streaming-Testing-Version2/) page to
 verify your setup.
 

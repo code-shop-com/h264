@@ -1,14 +1,10 @@
-= Licensing the H264 Streaming Module (Version 2) =
+# Licensing the H264 Streaming Module (Version 2)
 
-[http://h264.code-shop.com/trac/wiki/ back][[PageOutline]]
-
-----
-
-== Non commercial license ==
+## Non commercial license
 
 Non profit sites that have no ads do not require a commercial license. Of course
 a donation is always appreciated. You have to agree to the
-[http://creativecommons.org/licenses/by-nc-sa/3.0/ noncommercial license].
+[noncommercial license](http://creativecommons.org/licenses/by-nc-sa/3.0/).
 
 {{{ #!html <form name="_xclick" action="https://www.paypal.com/cgi-bin/webscr"
 method="post"> <input type="hidden" name="cmd" value="_xclick"> <input
@@ -18,7 +14,7 @@ name="currency_code" value="EUR"> <input type="image"
 src="http://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" border="0"
 name="submit" alt="Please donate! - it's fast, free and secure!"> </form> }}}
 
-== Why buy a license? ==
+## Why buy a license?
 
 If you buy a
 [http://h264.code-shop.com/licenses/H264-Streaming-Module-License.pdf commercial
@@ -27,12 +23,12 @@ license], you can use the H264 Streaming Module (version 2) on
   1. A corporate site 2. A site that has ads 3. A CMS (Content Management
 System) 4. A CDN (Content Delivery Network)
 
-== Download the license ==
+## Download the license
 
 Download the commercial license
-[http://h264.code-shop.com/licenses/H264-Streaming-Module-License.pdf here].
+[here](http://h264.code-shop.com/licenses/H264-Streaming-Module-License.pdf).
 
-== Available commercial licenses ==
+## Available commercial licenses
 
 The following commercial licenses are available.
 
@@ -43,12 +39,12 @@ On a single site license you are limited to a maximum of 5.000.000 video streams
 per month in aggregate. You have to buy the Premium license if you stream more
 videos.
 
-== Checkout with !PayPal ==
+## Checkout with PayPal
 
-If you would like to pay using !PayPal, please make a selection below and click
+If you would like to pay using PayPal, please make a selection below and click
 the buy now button. 
 
-'''The Paypal receipt you receive is your invoice.'''
+*The Paypal receipt you receive is your invoice.*
 
 {{{ #!html <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_xclick"> <input type="hidden"

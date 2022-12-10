@@ -1,17 +1,12 @@
-= Downloading and configuring the H264 Streaming Module for Internet Information
-Services IIS 7 =
+# Downloading and configuring the H264 Streaming Module for Internet Information Services IIS 7 =
 
-[http://h264.code-shop.com/trac/wiki/ back][[PageOutline]]
-
-----
-
-== Download ==
+## Download
 
 Download the
 [http://h264.code-shop.com/download/iis7_mod_h264_streaming-2.2.7.zip
 H264-Streaming-Module for IIS 7].
 
-== Configuration IIS 7 (Windows Vista) ==
+## Configuration IIS 7 (Windows Vista)
 
 By default, IIS 7.0 is not installed on Windows Vista. You can install IIS by
 clicking Windows Features in Advanced Options under Programs in Control Panel. 
@@ -63,8 +58,8 @@ Open up IIS Manager.
 
 The module now appears under the 'Enabled' Handler Mappings.
 
-== Testing ==
+## Testing
 
-Continue to the [wiki:Mod-H264-Streaming-Testing-Version2 testing] page to
+Continue to the [testing](/wiki:Mod-H264-Streaming-Testing-Version2/) page to
 verify your setup.
 

@@ -1,10 +1,6 @@
-= How to encode video in H264 format =
+# How to encode video in H264 format
 
-[wiki:WikiStart back][[PageOutline]]
-
-----
-
-== Ffmpeg/x264 (profile High, level 3.0) (latest versions of x264) ==
+## Ffmpeg/x264 (profile High, level 3.0) (latest versions of x264)
 
 We have successfully been using ffmpeg/libx264 with two pass encoding using the
 following commands:
@@ -28,7 +24,7 @@ save a little time on the server which is hosting the movie files.
 
 Thanks to S0ma for the updated options.
 
-== Ffmpeg/x264 (profile High, level 3.0) (older versions) ==
+## Ffmpeg/x264 (profile High, level 3.0) (older versions)
 
 Replace the options above with:
 
@@ -38,7 +34,7 @@ Replace the options above with:
 parti4x4+parti8x8+partp4x4+partp8x8+partb8x8 -g 250 \ -keyint_min 25
 -sc_threshold 40 -i_qfactor 0.71" }}}
 
-== Ffmpeg/x264 (profile Baseline, level 3.0) (iPhone) ==
+## Ffmpeg/x264 (profile Baseline, level 3.0) (iPhone)
 
 Replace the options above with:
 
@@ -47,7 +43,7 @@ Replace the options above with:
 1 -refs 5 -bf 0 \ -flags2 +mixed_refs -coder 0 -me_range 16 \ -g 250 -keyint_min
 25 -sc_threshold 40 -i_qfactor 0.71 -qmin 10\ -qmax 51 -qdiff 4" }}}
 
-== Mencoder & mp4creator ==
+## Mencoder & mp4creator
 
 The following PHP script was contributed (thanks!):
 
@@ -68,13 +64,13 @@ system("mp4creator -create=". $file_output_h264. " -rate=23.976 ". $file_output
 system("mp4creator -hint=1 ". $file_output .""); system("mp4creator -hint=2 ".
 $file_output .""); system("mp4creator -optimize ". $file_output .""); }}}
 
-== Telestream Episode Engine Pro 5 ==
+## Telestream Episode Engine Pro 5
 
 Files transcoded by a [http://www.telestream.net/products/episode_engine.htm
 Telestream Episode Engine Pro 5] are reported to work. The files are H264/AAC in
 an MP4 container. They are compatible with both Flash and iPod.
 
-== Encoding H264 on Tiger ==
+## Encoding H264 on Tiger
 
 Here is a little wisdom snippet from challefredde:
 

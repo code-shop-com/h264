@@ -1,17 +1,13 @@
-= Downloading and building the H264 Streaming Module for Lighttpd (version 2) =
+# Downloading and building the H264 Streaming Module for Lighttpd (version 2)
 
-[http://h264.code-shop.com/trac/wiki/ back][[PageOutline]]
-
-----
-
-== Dependencies ==
+## Dependencies
 
 To make sure you have all dependencies (configuration files, startup scripts)
 installed it's best to first install Lighttpd via 'apt-get'.
 
-{{{ sudo apt-get install lighttpd }}}
+` sudo apt-get install lighttpd `
 
-== Download Lighttpd 1.4.18 ==
+## Download Lighttpd 1.4.18
 
 Download the source of Lighttpd and the H264 Streaming Module.
 
@@ -19,7 +15,7 @@ Download the source of Lighttpd and the H264 Streaming Module.
 http://h264.code-shop.com/download/lighttpd-1.4.18_mod_h264_streaming-2.2.9.tar.gz
 tar -zxvf lighttpd-1.4.18_mod_h264_streaming-2.2.9.tar.gz }}}
 
-== Download Lighttpd 1.4.19 & 1.4.20 (and other 1.4.x) ==
+## Download Lighttpd 1.4.19 & 1.4.20 (and other 1.4.x)
 
 Follow the instructions for 'Download Lighttpd 1.4.18' first. Then continue with
 the following steps.
@@ -64,20 +60,20 @@ reason to worry.
 After this you are all set and should type 'make && make install' - the exe+libs
 will be installed in ${HOME}/test/lighttpd-1.4.x.
 
-== Download Lighttpd 1.5.0 ==
+## Download Lighttpd 1.5.0
 
 {{{ cd ~ wget
 http://h264.code-shop.com/download/lighttpd-1.5.0_mod_h264_streaming-2.2.9.tar.gz
 tar -zxvf lighttpd-1.5.0_mod_h264_streaming-2.2.9.tar.gz }}}
 
-== Build ==
+## Build
 
 Run configure in the Lighttpd directory.  {{{ cd ~/lighttpd-1.4.18 ./configure
 }}}
 
-Make and install Lighttpd.  {{{ make sudo make install }}}
+Make and install Lighttpd.  ` make sudo make install `
 
-== Configuration ==
+## Configuration
 
 Edit the configuration file (in /etc/lighttpd/lighttpd.conf) so that file
 requests ending in ".mp4" are handled by the mod_h264_streaming module.
@@ -89,11 +85,11 @@ requests ending in ".mp4" are handled by the mod_h264_streaming module.
 Make sure that DAEMON in your startup script (/etc/init.d/lighttpd) is set to
 point to the locally build version.
 
-{{{ DAEMON=/usr/local/sbin/lighttpd }}}
+` DAEMON=/usr/local/sbin/lighttpd `
 
-Start Lighttpd {{{ sudo /etc/init.d/lighttpd start }}}
+Start Lighttpd ` sudo /etc/init.d/lighttpd start `
 
-== Advanced configuration ==
+## Advanced configuration
 
 Two other modules that you may consider using are mod_expire and
 mod_secdownload. The order of the modules in your configuration is important. If
@@ -126,22 +122,22 @@ Use mod_secdownload to prevent hotlinking.
 "/var/www/video/" secdownload.uri-prefix      = "/video/" secdownload.timeout
 = 3600 }}}
 
-== License ==
+## License
 
 This version is free if you agree to the
-[http://creativecommons.org/licenses/by-nc-sa/3.0/ noncommercial license].
+[noncommercial license](http://creativecommons.org/licenses/by-nc-sa/3.0/).
 Please mention its use on your website, in the lines of 'This website uses H264
-pseudo video streaming technology by [http://h264.code-shop.com CodeShop]'.
+pseudo video streaming technology by [CodeShop](http://h264.code-shop.com)'.
 
 Our commercial license is very inexpensive, see the following page to check if
-you need a [wiki:Mod-H264-Streaming-License-Version2 commercial license].
+you need a [commercial license](/wiki:Mod-H264-Streaming-License-Version2/).
 
-== Testing ==
+## Testing
 
-Continue to the [wiki:Mod-H264-Streaming-Testing-Version2 testing] page to
+Continue to the [testing](/wiki:Mod-H264-Streaming-Testing-Version2/) page to
 verify your setup.
 
-== Demo ==
+## Demo
 
 See [http://h264.code-shop.com:8080/testlist.html] for a demo running Lighttpd
 1.5.0.
