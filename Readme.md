@@ -61,15 +61,15 @@ is no need to re-encode your MP4 videos, you can use your existing video files.
 
 Pick your webserver and continue to the download and build instructions.
 
-  * [Mod-H264-Streaming-AolServer-Version2 AOLserver](webseerver/Aolserver.md)
-  * [Mod-H264-Streaming-Apache-Version2 Apache](webserver/Apache.md)
-  * [Mod-H264-Streaming-Internet-Information-Services-IIS-Version2 IIS 5 and 6](webseerver/IIS-5-6.md)
-  * [Mod-H264-Streaming-Internet-Information-Services-IIS7-Version2 IIS 7](webseerver/IIS-7.md)
-  * [Mod-H264-Streaming-Lighttpd-Version2 Lighttpd](webserver/Lighttpd.md)
-  * [Mod-H264-Streaming-Nginx-Version2 Nginx](webseerver/Nginx.md)
+  * [AOLserver](webseerver/Aolserver.md)
+  * [Apache](webserver/Apache.md)
+  * [IIS 5 and 6](webseerver/IIS-5-6.md)
+  * [IIS 7](webseerver/IIS-7.md)
+  * [Lighttpd](webserver/Lighttpd.md)
+  * [Nginx](webseerver/Nginx.md)
 
-Have a look at the [latest release notes](webserver/Release.notes) to see what
-has changed or have a look at the 
+Have a look at the [latest release notes](webserver/Release_notes.md) to see 
+what has changed or have a look at the 
 [performance figures](webserver/performance/Nginx.md) to give you an idea about 
 cpu / memory usage.
 
@@ -85,13 +85,13 @@ you need a [license](License.md).
 
 ## Flash players supporting H264 Streaming
 
-  * [FCPlayer](http://www.fastcatsoftware.com/Player/H264Streaming/demo.asp) by Fastcat Software.  
-  * [JW FLV Media Player]([http://www.longtailvideo.com/players/jw-flv-player)
+  * [FCPlayer](http://www.fastcatsoftware.com/Player/H264Streaming/demo.asp)
+  * [JW FLV Media Player](http://www.longtailvideo.com/players/jw-flv-player)
   * [Flowplayer](http://www.flowplayer.org/)
 
 ## Encoding videos in H264
 
-See the article [Encoding video in H264](Encoding.md).
+See the article [Encoding video in H264](webserver/Encoding.md).
 
 ## Feedback
 
