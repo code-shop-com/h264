@@ -1,6 +1,6 @@
 # H264 Streaming Module Introduction (version 2)
 
-<img src="site.png" alt="Old site" width="800" />
+<img src="download/site.png" alt="Old site" width="800" />
 
 ## News
 
@@ -47,14 +47,6 @@ smaller parts? We also support 'virtual video clips', so you can specify to only
 playback a part of the video or create download links to specific parts of the
 video.
 
-Virtual video clips also enables possibilities for
-[Adaptive Streaming](http://demo.unified-streaming.com Adaptive Streaming).
-
-An easy way for making previews available, say for example when you want to
-differentiate between registered and unregistered users. Here's a little
-tutorial for the different web servers on [wiki:VirtualVideoClipUrlRewrite 'url
-rewriting and virtual video clips'].
-
 ### Network efficiency 
 
 The next version will feature 'bandwidth shaping' allowing you to stream videos
@@ -65,33 +57,28 @@ and only use the bandwidth required to view the video over the network.
 If you are already using the widely adopted MPEG4/H264 industry standard, there
 is no need to re-encode your MP4 videos, you can use your existing video files.
 
-## Demonstration
-
-You can watch the [http://h264.code-shop.com/demo/apache/testlist.html H264
-(Pseudo) Streaming Demo]. Make sure you have the latest Flash player installed.
-Grab it from [http://labs.adobe.com/technologies/flashplayer10/].
-
 ## Available Versions
 
 Pick your webserver and continue to the download and build instructions.
 
-  * [Mod-H264-Streaming-Apache-Version2 Apache](Apache.md)
-  * [Mod-H264-Streaming-Lighttpd-Version2 Lighttpd](Lighttpd.md)
-  * [Mod-H264-Streaming-Nginx-Version2 Nginx](Nginx.md)
-  * [Mod-H264-Streaming-Internet-Information-Services-IIS-Version2 IIS 5 and 6](IIS-5-6.md)
-  * [Mod-H264-Streaming-Internet-Information-Services-IIS7-Version2 IIS 7](IIS-7.md)
-  * [Mod-H264-Streaming-AolServer-Version2 AOLserver](Aolserver.md)
+  * [Mod-H264-Streaming-AolServer-Version2 AOLserver](webseerver/Aolserver.md)
+  * [Mod-H264-Streaming-Apache-Version2 Apache](webserver/Apache.md)
+  * [Mod-H264-Streaming-Internet-Information-Services-IIS-Version2 IIS 5 and 6](webseerver/IIS-5-6.md)
+  * [Mod-H264-Streaming-Internet-Information-Services-IIS7-Version2 IIS 7](webseerver/IIS-7.md)
+  * [Mod-H264-Streaming-Lighttpd-Version2 Lighttpd](webserver/Lighttpd.md)
+  * [Mod-H264-Streaming-Nginx-Version2 Nginx](webseerver/Nginx.md)
 
-Have a look at the [latest release notes](Release.notes) to see what
-has changed or have a look at the [wiki:Mod-H264-Streaming-Performance-Version2
-performance figures] to give you an idea about cpu / memory usage.
+Have a look at the [latest release notes](webserver/Release.notes) to see what
+has changed or have a look at the 
+[performance figures](webserver/performance/Nginx.md) to give you an idea about 
+cpu / memory usage.
 
 ## License
 
 This version is free if you agree to the
 [noncommercial license](http://creativecommons.org/licenses/by-nc-sa/3.0).
 Please mention its use on your website, in the lines of 'This website uses H264
-pseudo video streaming technology by [http://h264.code-shop.com CodeShop]'.
+pseudo video streaming technology by [CodeShop](http://h264.code-shop.com)'.
 
 Our commercial license is very inexpensive, see the following page to check if
 you need a [license](License.md).
@@ -104,16 +91,11 @@ you need a [license](License.md).
 
 ## Encoding videos in H264
 
-See the article [Encoding Encoding video in H264](Encoding.md).
-
-## Who is using the plugin?
-
-See this [forum] for references.
+See the article [Encoding video in H264](Encoding.md).
 
 ## Feedback
 
-Feel free to email us a [mailto:h264@code-shop.com private comment] or leave a
-note on our [/trac/discussion public forum].
+Feel free to email us at h264[at]code-shop.com private comment.
 
 ## Thank you
 
