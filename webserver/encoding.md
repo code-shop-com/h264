@@ -75,9 +75,9 @@ system("mp4creator -optimize ". $file_output .""); }}}
 
 ## Telestream Episode Engine Pro 5
 
-Files transcoded by a [http://www.telestream.net/products/episode_engine.htm
-Telestream Episode Engine Pro 5] are reported to work. The files are H264/AAC in
-an MP4 container. They are compatible with both Flash and iPod.
+Files transcoded by a [Telestream Episode Engine Pro 5](http://www.telestream.net/products/episode_engine.htm)
+are reported to work. The files are H264/AAC in an MP4 container. They are 
+compatible with both Flash and iPod.
 
 ## Encoding H264 on Tiger
 
