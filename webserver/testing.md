@@ -27,11 +27,11 @@ favorite player to see if worked okay.
 
 ## Query parameters
 
-| parameter name | value | notes | 
-| --- | --- | --- | --- |
-| start | start time of video clip (in seconds)| defaults to start of clip |
-| end | end time of video clip (in seconds) | defaults to end of clip|
-| client | FLASH|| when the client is specified as FLASH meta data will not be 
+| Parameter name | Value | Notes | 
+| --- | --- | --- |
+| start | start time of video clip (in seconds) | defaults to start of clip |
+| end | end time of video clip (in seconds) | defaults to end of clip |
+| client | FLASH | when the client is specified as FLASH meta data will not be 
 compressed and only 1 video and audio stream is returned |
 
 Note that the start and end times are always aligned to the nearest keyframe.
@@ -48,6 +48,8 @@ you can easily specify them using the start and end times.
 So there is only one full clip stored, but parts of it can be made available,
 like so:
 
+| Selection | URL |
+| --- | --- |
 | The full clip | http://h264-demo.example.com/demo/trailer.mp4?start=0] |
 | The first minute | http://h264-demo.example.com/trailer.mp4?start=0&end=60 |
 | The last two minutes | http://h264-demo.example.com/trailer.mp4?start=404 |

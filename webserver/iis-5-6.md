@@ -1,9 +1,8 @@
-# Downloading and configuring the H264 Streaming Module for Internet Information Services IIS =
+# Downloading and configuring the H264 Streaming Module for Internet Information Services IIS
 
 ## Download
 
-Download the
-[H264-Streaming-Module ISAPI extension for IIS](https://github.com/code-shop-com/h264/blob/main/download/iis5_mod_h264_streaming-2.2.7.zip).
+Download the [H264-Streaming-Module ISAPI extension for IIS](https://github.com/code-shop-com/h264/blob/main/download/iis5_mod_h264_streaming-2.2.7.zip).
 
 ## Configuration IIS 5.1 (Windows XP)
 
@@ -35,7 +34,7 @@ In the root of the website (c:\inetpub\wwwroot).
 
 When running Windows 64 bit:
 
-  - Read [Configuring IIS to Run 32-bit Applications on 64-bit Windows (IIS 6.0)[(http://www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/405f5bb5-87a3-43d2-8138-54b75db73aa1.mspx?mfr=true)
+  - Read [Configuring IIS to Run 32-bit Applications on 64-bit Windows (IIS 6.0)(http://www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/405f5bb5-87a3-43d2-8138-54b75db73aa1.mspx?mfr=true)
     and follow the given instructions.
   - Copy the Mod-H264-Streaming module (mod_h264_streaming.dll) into this
     directory (%windir%\syswow64\inetsrv).

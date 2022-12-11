@@ -33,7 +33,7 @@ Edit your AOLserver configuration file ('nsd.tcl') and add the module:
 
 ```
 ns_section "ns/server/server1/modules" 
-  ns_param mod_h264_streaming mod_h264_streaming.so
+ns_param mod_h264_streaming mod_h264_streaming.so
 ```
 
 Start AOLserver: 

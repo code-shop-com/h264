@@ -4,12 +4,16 @@ We will be using [apxs2](http://httpd.apache.org/docs/2.0/programs/apxs.html),
 the APache eXtenSion tool, to build and install the module for the Apache
 server.
 
-Make sure you have apxs2 installed: {{{ sudo apt-get install
-apache2-threaded-dev }}}
+Make sure you have apxs2 installed: 
+
+```
+sudo apt-get install apache2-threaded-dev
+```
 
 ## Download
 
 Download the source of the H264 Streaming Module for Apache.  
+
 ```
 cd ~ 
 wget https://github.com/code-shop-com/h264/blob/main/download/apache_mod_h264_streaming-2.2.7.tar.gz
