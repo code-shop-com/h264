@@ -61,12 +61,12 @@ is no need to re-encode your MP4 videos, you can use your existing video files.
 
 Pick your webserver and continue to the download and build instructions.
 
-  * [AOLserver](webseerver/aolserver.md)
+  * [AOLserver](webserver/aolserver.md)
   * [Apache](webserver/apache.md)
-  * [IIS 5 and 6](webseerver/iis-5-6.md)
-  * [IIS 7](webseerver/iis-7.md)
+  * [IIS 5 and 6](webserver/iis-5-6.md)
+  * [IIS 7](webserver/iis-7.md)
   * [Lighttpd](webserver/lighttpd.md)
-  * [Nginx](webseerver/nginx.md)
+  * [Nginx](webserver/nginx.md)
 
 Have a look at the [latest release notes](webserver/release_notes.md) to see 
 what has changed or have a look at the 
