@@ -3,8 +3,7 @@
 ## Download
 
 Download the
-[http://h264.code-shop.com/download/iis5_mod_h264_streaming-2.2.7.zip
-H264-Streaming-Module ISAPI extension for IIS].
+[H264-Streaming-Module ISAPI extension for IIS](https://github.com/code-shop-com/h264/blob/main/download/iis5_mod_h264_streaming-2.2.7.zip).
 
 ## Configuration IIS 5.1 (Windows XP)
 
@@ -36,10 +35,8 @@ In the root of the website (c:\inetpub\wwwroot).
 
 When running Windows 64 bit:
 
-  - Read
-    [http://www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/405f5bb5-87a3-43d2-8138-54b75db73aa1.mspx?mfr=true
-Configuring IIS to Run 32-bit Applications on 64-bit Windows (IIS 6.0)] and
-follow the given instructions.
+  - Read [Configuring IIS to Run 32-bit Applications on 64-bit Windows (IIS 6.0)[(http://www.microsoft.com/technet/prodtechnol/WindowsServer2003/Library/IIS/405f5bb5-87a3-43d2-8138-54b75db73aa1.mspx?mfr=true)
+    and follow the given instructions.
   - Copy the Mod-H264-Streaming module (mod_h264_streaming.dll) into this
     directory (%windir%\syswow64\inetsrv).
 
@@ -59,8 +56,11 @@ in .mp4
   - Click 'Add' and select the mod_h264_streaming.dll executable.
   - Tick the 'Set extension status to Allowed'.
 
+## License
+
+See the [license](../license.md) section.
+
 ## Testing
 
-Continue to the [testing](/wiki:Mod-H264-Streaming-Testing-Version2/) page to
-verify your setup.
+Continue to the [testing](testing.md) page to verify your setup.
 

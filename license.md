@@ -8,9 +8,8 @@ a donation is always appreciated. You have to agree to the
 
 ## Why buy a license?
 
-If you buy a
-[commercial license](download/licenses/H264-Streaming-Module-License.pdf)
-, you can use the H264 Streaming Module (version 2) on
+If you buy a commercial license, you can use the H264 Streaming Module 
+(version 2) on
 
 - A corporate site 
 - A site that has ads 
@@ -20,7 +19,7 @@ If you buy a
 ## Download the license
 
 Download the commercial license
-[here](download/H264-Streaming-Module-License.pdf).
+[here](download/h264-streaming-module-license.pdf).
 
 ## Available commercial licenses
 

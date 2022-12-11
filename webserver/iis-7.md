@@ -3,8 +3,7 @@
 ## Download
 
 Download the
-[http://h264.code-shop.com/download/iis7_mod_h264_streaming-2.2.7.zip
-H264-Streaming-Module for IIS 7].
+[H264-Streaming-Module ISAPI extension for IIS 7](https://github.com/code-shop-com/h264/blob/main/download/iis7_mod_h264_streaming-2.2.7.zip).
 
 ## Configuration IIS 7 (Windows Vista)
 
@@ -20,13 +19,9 @@ When running Windows 32 bit:
 
 When running Windows 64 bit: 
 
-  - Enable 32 bit applications on win 64. See:
-    [http://blogs.msdn.com/rakkimk/archive/2007/11/03/iis7-running-32-bit-and-64-bit-asp-net-versions-at-the-same-time-on-different-worker-processes.aspx
-IIS7 - Running 32-bit and 64-bit ASP.NET versions at the same time on different
-worker processes].
+  - Enable 32 bit applications on win 64. See: [IIS7 - Running 32-bit and 64-bit ASP.NET versions at the same time on different worker processes](http://blogs.msdn.com/rakkimk/archive/2007/11/03/iis7-running-32-bit-and-64-bit-asp-net-versions-at-the-same-time-on-different-worker-processes.aspx).
   - Copy the Mod-H264-Streaming module (mod_h264_streaming.dll) into either
-    (%windir%\syswow64\inetsrv) or (%windir%\system32\inetsrv) depending on your
-windows version.
+    (%windir%\syswow64\inetsrv) or (%windir%\system32\inetsrv) depending on your windows version.
 
 Open up IIS Manager.
 
@@ -58,8 +53,11 @@ Open up IIS Manager.
 
 The module now appears under the 'Enabled' Handler Mappings.
 
+## License
+
+See the [license](../license.md) section.
+
 ## Testing
 
-Continue to the [testing](/wiki:Mod-H264-Streaming-Testing-Version2/) page to
-verify your setup.
+Continue to the [testing](testing.md) page to verify your setup.
 
