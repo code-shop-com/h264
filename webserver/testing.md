@@ -31,8 +31,7 @@ favorite player to see if worked okay.
 | --- | --- | --- |
 | start | start time of video clip (in seconds) | defaults to start of clip |
 | end | end time of video clip (in seconds) | defaults to end of clip |
-| client | FLASH | when the client is specified as FLASH meta data will not be 
-compressed and only 1 video and audio stream is returned |
+| client | FLASH | when the client is specified as FLASH meta data will not be compressed and only 1 video and audio stream is returned |
 
 Note that the start and end times are always aligned to the nearest keyframe.
 The more keyframes you have in your video the more accurate it will be. In
